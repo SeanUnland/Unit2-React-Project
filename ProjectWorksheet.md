@@ -6,7 +6,7 @@
 
 ## Project Description
 
-I will be building an App using React and import data through an API that will be implemented in my app.
+I will be building a localization App that allows you to find record stores around you, using React and import data through a Google Map API that will be implemented in my app.
 
 ## API
 
