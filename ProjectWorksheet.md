@@ -10,6 +10,8 @@ I will be building an audio App that allows you to search and play music, using 
 
 ## API
 
+https://developers.soundcloud.com/docs/api/guide#playing
+
 ```
 <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
 <script>
