@@ -2,8 +2,6 @@
 
 ## Project Links
 
-
-
 ## Project Description
 
 I will be building an audio App that allows you to search and play music, using React and import data through a Discogs API that will be implemented in my app.
@@ -65,63 +63,50 @@ https://api.discogs.com/artists/1/releases?page=1&per_page=75
 },
 ```
 
-
 ## Wireframes
 
-
-
+[React Architecture](https://docs.google.com/drawings/d/1EWfBiE0ji3c6ADyGAfprCdVKIsoUHxJoCYV4q74ReJs/edit?usp=sharing)
 
 ### MVP/PostMVP
 
-
-
 #### MVP EXAMPLE
-
 
 #### PostMVP EXAMPLE
 
-
-
 ## Components
+
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-
-
-| Component | Description | 
-| --- | :---: |  
-|  |  | 
-|  | | 
-|  |  |
-| | |
-|  |  |
-|  | |
-| | |
-|  | |
-|  | |
-| | |
-|  | |
-|  |  |
-
-
+| Component | Description |
+| --------- | :---------: |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
+|           |             |
 
 Unless otherwise noted, time is listed in hours:
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-|  |  | | | |
-|  |  | |  |  |
-| |  | | | |
-|  | |  |  |  |
-| |  |  |  |  |
-|  |  |  |  |  |
-| |  | |  |  |
-| | |  |  |  |
-| | |  |  |  |
-| | |  |  |  |
-
+| --------- | :------: | :------------: | :------------: | :---------: |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
+|           |          |                |                |             |
 
 ## Additional Libraries
 
-
 ## Code Snippet
-
