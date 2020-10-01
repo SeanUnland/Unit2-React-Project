@@ -6,7 +6,7 @@
 
 ## Project Description
 
-I will be building an audio App that allows you to search and play music, using React and import data through a SoundCloud API that will be implemented in my app.
+I will be building an audio App that allows you to search and play music, using React and import data through a Discogs API that will be implemented in my app.
 
 ## API
 
