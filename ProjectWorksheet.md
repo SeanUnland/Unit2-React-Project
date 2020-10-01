@@ -6,7 +6,7 @@
 
 ## Project Description
 
-I will be building a localization App that allows you to find record stores around you, using React and import data through a Google Map API that will be implemented in my app.
+I will be building an audio App that allows you to search and play music, using React and import data through a SoundCloud API that will be implemented in my app.
 
 ## API
 
