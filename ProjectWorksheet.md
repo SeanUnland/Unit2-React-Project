@@ -98,22 +98,15 @@ A functional and interactive music and audio app.
 
 ## Components
 
-##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
-
-| Component    | Description |
-| ------------ | :---------: |
-| App          |             |
-| Header       |             |
-| Main         |             |
-| Library      |             |
-| Information  |             |
-| Audio Player |             |
-| Footer       |             |
-|              |             |
-|              |             |
-|              |             |
-|              |             |
-|              |             |
+| Component    |                      Description                      |
+| ------------ | :---------------------------------------------------: |
+| App          | Will make the initial data pull, include React Router |
+| Header       |            Will be used to render the nav             |
+| Main         |      Will have State and use Route, Switch, Link      |
+| Library      | Will render the data you chose into your own library  |
+| Information  |     Will render the artist and album information      |
+| Footer       |                Will render the footer                 |
+| Audio Player |              Will render an audio player              |
 
 Unless otherwise noted, time is listed in hours:
 
