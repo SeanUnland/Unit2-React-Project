@@ -120,9 +120,6 @@ Unless otherwise noted, time is listed in hours:
 | Information  |    H     |       3        |                |             |
 | Audio Player |    M     |       4        |                |             |
 | Footer       |    H     |       3        |                |             |
-|              |          |                |                |             |
-|              |          |                |                |             |
-|              |          |                |                |             |
 
 ## Additional Libraries
 
