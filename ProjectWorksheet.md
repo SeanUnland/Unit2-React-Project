@@ -6,7 +6,7 @@
 
 ## Project Description
 
-I will be building an audio App that allows you to search and play music, using React and import data through a Discogs API that will be implemented in my app.
+I will be building a music and audio App that allows you to search vinyl records and play music, using React and import data through a Discogs API that will be implemented in my app. I would like it to display a main page with random artists and then give you the ability to search, and add an artist or album to your library. I would also like to include an audio player that would play music of the artist you clicked on.
 
 ## API
 
@@ -95,6 +95,7 @@ A functional and interactive music and audio app.
 #### PostMVP
 
 - An audio player that will play teasers of the record.
+- Style using SCSS.
 
 ## Components
 
