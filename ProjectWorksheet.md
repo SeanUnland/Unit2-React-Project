@@ -75,43 +75,58 @@ https://api.discogs.com/artists/1/releases?page=1&per_page=75
 
 ### MVP/PostMVP
 
-#### MVP EXAMPLE
+#### MVP
 
-#### PostMVP EXAMPLE
+A functional and interactive music and audio app.
+
+- Can search for vinyl records usnig the API call.
+- Can display artist, album, and information from the API call.
+- Can add the record to your own library.
+  A navbar to navigate to the different pages.
+  A header
+  A main page.
+  A footer
+  Library page.
+  Artist information page.
+  Styling
+
+#### PostMVP
+
+- An audio player that will play teasers of the record.
 
 ## Components
 
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
 
-| Component | Description |
-| --------- | :---------: |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
-|           |             |
+| Component    | Description |
+| ------------ | :---------: |
+| App          |             |
+| Header       |             |
+| Main         |             |
+| Library      |             |
+| Information  |             |
+| Audio Player |             |
+| Footer       |             |
+|              |             |
+|              |             |
+|              |             |
+|              |             |
+|              |             |
 
 Unless otherwise noted, time is listed in hours:
 
-| Component | Priority | Estimated Time | Time Invetsted | Actual Time |
-| --------- | :------: | :------------: | :------------: | :---------: |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
-|           |          |                |                |             |
+| Component    | Priority | Estimated Time | Time Invetsted | Actual Time |
+| ------------ | :------: | :------------: | :------------: | :---------: |
+| App          |    H     |       3        |                |             |
+| Header       |    H     |       3        |                |             |
+| Main         |    H     |       3        |                |             |
+| Library      |    H     |       3        |                |             |
+| Information  |    H     |       3        |                |             |
+| Audio Player |    M     |       4        |                |             |
+| Footer       |    H     |       3        |                |             |
+|              |          |                |                |             |
+|              |          |                |                |             |
+|              |          |                |                |             |
 
 ## Additional Libraries
 
