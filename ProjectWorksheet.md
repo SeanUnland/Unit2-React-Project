@@ -67,6 +67,12 @@ https://api.discogs.com/artists/1/releases?page=1&per_page=75
 
 [React Architecture](https://docs.google.com/drawings/d/1EWfBiE0ji3c6ADyGAfprCdVKIsoUHxJoCYV4q74ReJs/edit?usp=sharing)
 
+[Wireframe Page 1](https://i.imgur.com/JnuVr21.jpg)
+
+[Wireframe Page 2](https://i.imgur.com/hzAvlXW.jpg)
+
+[Wireframe Page 3](https://i.imgur.com/srTXEsJ.jpg)
+
 ### MVP/PostMVP
 
 #### MVP EXAMPLE
