@@ -1,6 +1,7 @@
 import React from "react";
 
-const AudioPlayer = (props) => {
+const AudioPlayer = ({ songs }) => {
+  console.log("Songs", songs);
   return <></>;
 };
 

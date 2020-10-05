@@ -1,12 +1,12 @@
 import React from "react";
 
 const Library = ({ musicInfo }) => {
-  console.log("This is my-", musicInfo);
-  //   const { artist, album, song, albumArtwork } = musicInfo.fields;
+  console.log("Music Info - ", musicInfo);
+  const names = { musicInfo };
 
   return (
     <div className="Library">
-      <p></p>
+      <p>{names.fields}</p>
     </div>
   );
 };
