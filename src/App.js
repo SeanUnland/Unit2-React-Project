@@ -4,6 +4,7 @@ import Library from "./Components/Library";
 import Main from "./Components/Main";
 import SearchResults from "./Components/SearchResults";
 import Header from "./Components/Header";
+import Artist from "./Components/Artist";
 import { client } from "./client";
 
 import "./App.css";
@@ -25,8 +26,6 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <nav></nav>
-        <div className="container"></div>
         <main>
           <Route>
             <Header />
@@ -42,6 +41,10 @@ class App extends React.Component {
 
           <Route>
             <SearchResults />
+          </Route>
+
+          <Route>
+            <Artist />
           </Route>
         </main>
       </div>

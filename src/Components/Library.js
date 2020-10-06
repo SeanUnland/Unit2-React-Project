@@ -1,12 +1,14 @@
 import React from "react";
+import { Route, Link, Switch } from "react-router-dom";
 
 const Library = ({ musicInfo }) => {
   console.log("Music Info - ", musicInfo);
-  const names = { musicInfo };
 
   return (
     <div className="Library">
-      <p>{names.fields}</p>
+      <Link>
+        <p></p>
+      </Link>
     </div>
   );
 };
