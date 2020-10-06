@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap");
+
+.App {
+  text-align: center;
+
+  color: white;
+}
+
+body {
+  background-image: url("https://i.imgur.com/QdkR1EG.jpg");
+  background-size: cover;
+}
+
+.analogHeader {
+  font-family: "Finger Paint", cursive;
+}
+#jukebox {
+  color: #2595c5;
+  margin-left: 25px;
+  font-family: "Finger Paint", cursive;
+  font-size: 50px;
+}
+
+#AndListen {
+  color: #2595c5;
+  margin-left: 25px;
+}
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.Home {
+  margin: 10px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 20px;
+}
+#HomeButton {
+  color: #170312;
+  font-family: "Finger Paint", cursive;
+  font-size: 22px;
+}
+
+#SongsButton {
+  color: #fff8f0;
+  font-family: "Finger Paint", cursive;
+  font-size: 18px;
+}
+
+#PlayButton {
+  color: #ae8799;
+  font-size: 25px;
+  font-family: "Finger Paint", cursive;
+}
+
+#ArtistButton {
+  color: #c95d63;
+  font-family: "Finger Paint", cursive;
+  font-size: 10px;
+}
+
+.mainPage {
+  font-family: "Finger Paint", cursive;
+}
+
+.songList {
+  margin-top: 45px;
+  color: #f46036;
+  font-size: 20px;
+}
+.artistInfo {
+  color: #ee8434;
+  font-size: 30px;
+  font-family: "Finger Paint", cursive;
+}
+
+.bio {
+  color: #ee8434;
+  font-size: 40px;
+  font-family: "Finger Paint", cursive;
+}
+
+.AudioPlayer {
+  font-family: "Finger Paint", cursive;
+}
+
+//
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #6efb61;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

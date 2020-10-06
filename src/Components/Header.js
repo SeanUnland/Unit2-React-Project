@@ -5,10 +5,19 @@ const Header = (props) => {
   return (
     <div className="Header">
       <nav className="navBar">
-        <Link to="/Home">Home</Link>
-        <Link to="/Songs">Songs</Link>
-        <Link to="/Play">Play</Link>
-        <Link to="/ArtistInformation">Artist Information</Link>
+        <Link to="/Home">
+          <span id="HomeButton">Home</span>
+        </Link>
+
+        <Link to="/Songs">
+          <span id="SongsButton">Songs</span>
+        </Link>
+        <Link to="/Play">
+          <span id="PlayButton">Play</span>
+        </Link>
+        <Link to="/ArtistInformation">
+          <span id="ArtistButton">Artist Information</span>
+        </Link>
       </nav>
     </div>
   );

@@ -7,7 +7,7 @@ import Header from "./Components/Header";
 import Artist from "./Components/Artist";
 import { client } from "./client";
 
-import "./App.css";
+import "./App.scss";
 
 class App extends React.Component {
   state = {
@@ -15,12 +15,15 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    client.getEntries().then((response) => {
-      console.log(response);
-      this.setState({
-        music: response.items,
-      });
-    });
+    client
+      .getEntries()
+      .then((response) => {
+        console.log("Response -", response);
+        this.setState({
+          music: response.items,
+        });
+      })
+      .catch(console.error);
   }
 
   render() {
@@ -32,7 +35,9 @@ class App extends React.Component {
           </Route>
 
           <Route>
-            <Main mainPage={this.state.music} />
+            <div className="mainPage">
+              <Main mainPage={this.state.music} />
+            </div>
           </Route>
 
           <Route>
