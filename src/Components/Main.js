@@ -22,14 +22,17 @@ const Main = ({ mainPage }) => {
       </Route>
 
       <Route path="/Artist">
-        {mainPage.map((artists, index) => (
-          <Artist artists={artists.fields.artistName} key={index} />
+        {mainPage.map((name, index) => (
+          <Artist key={index} name={name.fields.biography} />
         ))}
       </Route>
 
       <Route path="/Play">
         {mainPage.map((songs, index) => (
-          <AudioPlayer songs={songs.fields.song} />
+          <AudioPlayer
+            songs={songs.fields.song}
+            newSong={songs.fields.trackName}
+          />
         ))}
       </Route>
     </div>

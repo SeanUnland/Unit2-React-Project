@@ -1,16 +1,15 @@
 import React from "react";
 import { Route, Link, Switch } from "react-router-dom";
 
-const Artist = ({ artists, bio }) => {
-  console.log("Artist", artists);
+const Artist = ({ name }) => {
+  console.log("Artist", name);
 
   return (
-    <div>
-      <Link>
-        <p>{artists}</p>
-      </Link>
-      <p>{bio}</p>
-    </div>
+    <Switch>
+      <div>
+        <p>{name}</p>
+      </div>
+    </Switch>
   );
 };
 

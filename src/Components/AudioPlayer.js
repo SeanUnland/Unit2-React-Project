@@ -1,7 +1,8 @@
 import React from "react";
 
-const AudioPlayer = ({ songs }) => {
+const AudioPlayer = ({ songs, newSong }) => {
   console.log("Songs", songs);
+  console.log("New Song - ", newSong);
   return (
     <>
       <audio controls="controls">
@@ -10,9 +11,7 @@ const AudioPlayer = ({ songs }) => {
           type="audio"
         ></source>
       </audio>
-      <audio autoplay>
-        <source src="assets.ctfassets.net/5swixu5p2lln/1J7VwQ6RLVt2la…7b4112ed31bb2ff74de0f547b/01_Passing_Memories.mp3"></source>
-      </audio>
+      <audio>{newSong}</audio>
     </>
   );
 };
