@@ -8,7 +8,7 @@ const Header = (props) => {
         <Link to="/Home">Home</Link>
         <Link to="/Albums">Albums</Link>
         <Link to="/Play">Play</Link>
-        <Link to="/Artist">Artist</Link>
+        <Link to="/ArtistInformation">Artist Information</Link>
       </nav>
     </div>
   );

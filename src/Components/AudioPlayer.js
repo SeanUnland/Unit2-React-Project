@@ -1,18 +1,68 @@
 import React from "react";
 
-const AudioPlayer = ({ songs, newSong }) => {
-  console.log("Songs", songs);
-  console.log("New Song - ", newSong);
+const AudioPlayer = (props) => {
+  console.log("Songs", props);
+  console.log("New Song - ", props);
   return (
-    <>
-      <audio controls="controls">
-        <source
-          src="assets.ctfassets.net/5swixu5p2lln/2HDAL81zVPTYE37uGv0kMX/c16bc5a9185e7b7a674a6222bf0fa193/01_Black_Coffee__Feat._Bridjai___Chani____2.mp3"
-          type="audio"
-        ></source>
-      </audio>
-      <audio>{newSong}</audio>
-    </>
+    <div className="songs">
+      <iframe
+        width="100%"
+        height="20"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/893908294&color=%23d2d2d1&inverse=false&auto_play=false&show_user=true"
+      ></iframe>
+      <a
+        href="https://soundcloud.com/analog_robot"
+        title="Analog Robot"
+        target="_blank"
+      ></a>{" "}
+      ·{" "}
+      <a
+        href="https://soundcloud.com/analog_robot/you-know"
+        title="You Know"
+        target="_blank"
+      ></a>
+      <iframe
+        width="100%"
+        height="20"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/863848156&color=%23d2d2d1&inverse=false&auto_play=false&show_user=true"
+      ></iframe>
+      <a
+        href="https://soundcloud.com/analog_robot"
+        title="Analog Robot"
+        target="_blank"
+      ></a>{" "}
+      ·{" "}
+      <a
+        href="https://soundcloud.com/analog_robot/passing-memories"
+        title="Passing Memories"
+        target="_blank"
+      ></a>
+      <iframe
+        width="100%"
+        height="20"
+        scrolling="no"
+        frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/774724804&color=%23d2d2d1&inverse=false&auto_play=false&show_user=true"
+      ></iframe>
+      <a
+        href="https://soundcloud.com/analog_robot"
+        title="Analog Robot"
+        target="_blank"
+      ></a>{" "}
+      ·{" "}
+      <a
+        href="https://soundcloud.com/analog_robot/black-coffee-feat-bridjai-chani"
+        title="Black Coffee (Feat. Bridjaî Chanî)"
+        target="_blank"
+      ></a>
+    </div>
   );
 };
 
