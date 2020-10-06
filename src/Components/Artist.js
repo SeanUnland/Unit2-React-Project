@@ -6,7 +6,7 @@ const Artist = ({ name, bio }) => {
 
   return (
     <>
-      <div className="artistName">
+      <div className="artistInfo">
         <p>{name}</p>
       </div>
       <div className="bio">

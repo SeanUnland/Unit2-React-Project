@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import Library from "./Components/Library";
 import Main from "./Components/Main";
-import SearchResults from "./Components/SearchResults";
+import Songs from "./Components/Songs";
 import Header from "./Components/Header";
 import Artist from "./Components/Artist";
 import { client } from "./client";
@@ -40,7 +40,7 @@ class App extends React.Component {
           </Route>
 
           <Route>
-            <SearchResults />
+            <Songs />
           </Route>
 
           <Route>

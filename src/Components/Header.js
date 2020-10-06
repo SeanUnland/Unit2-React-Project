@@ -6,7 +6,7 @@ const Header = (props) => {
     <div className="Header">
       <nav className="navBar">
         <Link to="/Home">Home</Link>
-        <Link to="/Albums">Albums</Link>
+        <Link to="/Songs">Songs</Link>
         <Link to="/Play">Play</Link>
         <Link to="/ArtistInformation">Artist Information</Link>
       </nav>
