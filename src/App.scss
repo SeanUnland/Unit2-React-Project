@@ -13,18 +13,69 @@ body {
   background-size: cover;
 }
 
+@keyframes animation1 {
+  0% {
+    color: #422040;
+    font-size: 50px;
+  }
+  25% {
+    color: #e57a44;
+    font-size: 60px;
+  }
+  50% {
+    color: #e3d985;
+    font-size: 70px;
+  }
+  100% {
+    color: #e1efe6;
+    font-size: 50px;
+  }
+}
+
+@keyframes animation2 {
+  0% {
+    color: #422040;
+    font-size: 70px;
+  }
+  25% {
+    color: #e57a44;
+    font-size: 80px;
+  }
+  50% {
+    color: #e3d985;
+    font-size: 90px;
+  }
+  100% {
+    color: #e1efe6;
+    font-size: 70px;
+  }
+}
+
 .analogHeader {
-  font-family: "Bungee Shade", cursive;
-  font-size: 50px;
-  color: #e1efe6;
+  margin-top: 60px;
+  margin-bottom: 60px;
   border-bottom-style: groove;
   border-top-style: groove;
 }
+#analog {
+  color: #e1efe6;
+
+  font-family: "Bungee Shade", cursive;
+  font-size: 70px;
+
+  animation-name: animation2;
+  animation-duration: 60s;
+  animation-delay: 2s;
+}
+
 #jukebox {
   color: #e1efe6;
   margin-left: 25px;
   font-family: "Bungee Shade", cursive;
-  font-size: 30px;
+  font-size: 50px;
+  animation-name: animation1;
+  animation-duration: 60s;
+  animation-delay: 2s;
 }
 
 #AndListen {
@@ -38,7 +89,7 @@ img {
   display: inline;
   height: 80px;
   width: 80px;
-  margin: 3px;
+
   opacity: 50%;
 }
 
@@ -60,6 +111,9 @@ img {
   font-family: "Bungee Shade", cursive;
   font-size: 25px;
   margin-right: 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
 }
 
 #SongsButton {
@@ -67,24 +121,30 @@ img {
   font-family: "Bungee Shade", cursive;
   margin-left: 10px;
   margin-right: 10px;
-
+  height: 30px;
+  width: 30px;
   font-size: 25px;
+  border-radius: 4px;
 }
 
 #PlayButton {
   color: #fff8f0;
-  height: 25px;
-  width: 25px;
+  height: 30px;
+  width: 30px;
   font-size: 10px;
   font-family: "Bungee Shade", cursive;
   margin-left: 10px;
+  border-radius: 4px;
 }
 
 #ArtistButton {
   color: #fff8f0;
   font-family: "Bungee Shade", cursive;
   font-size: 25px;
-  margin-left: 10px;
+  margin-left: 15px;
+  height: 30px;
+  width: 30px;
+  border-radius: 4px;
 }
 
 .mainPage {
@@ -95,6 +155,10 @@ img {
   margin-top: 45px;
   color: #fff8f0;
   font-size: 20px;
+}
+
+#mySongs {
+  font-size: 40px;
 }
 .artistInfo {
   color: #e1efe6;

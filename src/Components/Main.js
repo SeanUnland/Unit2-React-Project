@@ -16,11 +16,12 @@ const Main = ({ mainPage }) => {
         <Library />
 
         <h2 className="analogHeader">
-          Analog <span id="jukebox">Jukebox</span>
+          <span id="analog">Analog</span> <span id="jukebox">Jukebox</span>
         </h2>
       </Route>
 
       <Route path="/Songs">
+        <h2 id="mySongs">My Songs</h2>
         {mainPage.map((songs, index) => (
           <Songs songs={songs.fields.songList} key={index} />
         ))}
@@ -32,6 +33,7 @@ const Main = ({ mainPage }) => {
             key={index}
             name={name.fields.artistName}
             bio={name.fields.myBio}
+            picture={name.fields.albumArtworks}
           />
         ))}
       </Route>
