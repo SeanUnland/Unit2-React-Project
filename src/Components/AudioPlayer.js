@@ -14,46 +14,6 @@ const AudioPlayer = (props) => {
           scrolling="no"
           frameborder="no"
           allow="autoplay"
-          src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/834437116&color=%23d2d2d1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-        ></iframe>
-        <div
-          style={{
-            fontSize: "10px",
-            color: "#cccccc",
-            lineBreak: "anywhere",
-            wordBreak: "normal",
-            overflow: "hidden",
-            whiteSpace: "nowrap",
-            textOverflow: "ellipsis",
-            fontFamily:
-              "Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif",
-            fontWeight: "100;",
-          }}
-        >
-          <a
-            href="https://soundcloud.com/analog_robot"
-            title="Analog Robot"
-            target="_blank"
-            style={{ color: "#cccccc", textDecoration: "none;" }}
-          >
-            Analog Robot
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://soundcloud.com/analog_robot/million-pesos-feat-dsblade"
-            title="Million Pesos (feat. Dsblade)"
-            target="_blank"
-            style={{ color: "#cccccc", textDecoration: "none;" }}
-          >
-            Million Pesos (feat. Dsblade)
-          </a>
-        </div>
-        <iframe
-          width="75%"
-          height="100"
-          scrolling="no"
-          frameborder="no"
-          allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/893908294&color=%23d2d2d1&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         ></iframe>
         <div
