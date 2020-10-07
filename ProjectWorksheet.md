@@ -109,14 +109,39 @@ Unless otherwise noted, time is listed in hours:
 
 | Component    | Priority | Estimated Time | Time Invetsted | Actual Time |
 | ------------ | :------: | :------------: | :------------: | :---------: |
-| App          |    H     |       3        |                |             |
-| Header       |    H     |       3        |                |             |
-| Main         |    H     |       3        |                |             |
-| Library      |    H     |       3        |                |             |
-| Information  |    H     |       3        |                |             |
-| Audio Player |    M     |       4        |                |             |
-| Footer       |    H     |       3        |                |             |
+| App          |    H     |       3        |       3        |      3      |
+| Header       |    H     |       3        |       2        |      2      |
+| Main         |    H     |       3        |       4        |      4      |
+| Library      |    H     |       3        |       3        |      3      |
+| Song         |    H     |       3        |       2        |      2      |
+| Audio Player |    M     |       4        |       4        |      4      |
+| Artist       |    H     |       3        |       3        |      3      |
 
 ## Additional Libraries
 
+Contentful
+
+SCSS
+
 ## Code Snippet
+
+This is the code I used to bring in my API through Contenful. I used a class component which fetched my API through my client.js component which stored my data for the Contenful API.
+
+```
+class App extends React.Component {
+  state = {
+    music: [],
+  };
+
+  componentDidMount() {
+    client
+      .getEntries()
+      .then((response) => {
+        console.log("Response -", response);
+        this.setState({
+          music: response.items,
+        });
+      })
+      .catch(console.error);
+  }
+```
