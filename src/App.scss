@@ -10,45 +10,55 @@
 
 body {
   // background-image: url("https://i.imgur.com/QdkR1EG.jpg");
-  background-image: url("https://i.imgur.com/w7lWJQO.jpg");
+  // background-image: url("https://i.imgur.com/w7lWJQO.jpg");
   // background-image: url("https://i.imgur.com/pCaHUd2.jpg");
+  background-image: url("https://i.imgur.com/KbscWlB.jpg");
+  // background-image: url("https://i.imgur.com/hN8X41b.jpg");
   background-size: auto;
 }
 
 @keyframes animation1 {
   0% {
-    color: #422040;
+    color: #22181c;
     font-size: 50px;
   }
   25% {
-    color: #e57a44;
+    color: #ee2e31;
     font-size: 60px;
   }
   50% {
-    color: #e3d985;
+    color: #ff6978;
+    font-size: 65px;
+  }
+  75% {
+    color: #f7f052;
     font-size: 70px;
   }
   100% {
-    color: #e1efe6;
+    color: #22181c;
     font-size: 50px;
   }
 }
 
 @keyframes animation2 {
   0% {
-    color: #422040;
+    color: #22181c;
     font-size: 70px;
   }
   25% {
-    color: #e57a44;
+    color: #ee2e31;
     font-size: 80px;
   }
   50% {
-    color: #e3d985;
+    color: #ff6978;
+    font-size: 85px;
+  }
+  75% {
+    color: #f7f052;
     font-size: 90px;
   }
   100% {
-    color: #e1efe6;
+    color: #22181c;
     font-size: 70px;
   }
 }
@@ -60,7 +70,7 @@ body {
   border-top-style: groove;
 }
 #analog {
-  color: #e1efe6;
+  color: #22181c;
 
   font-family: "Bungee Shade", cursive;
   font-size: 70px;
@@ -71,7 +81,7 @@ body {
 }
 
 #jukebox {
-  color: #e1efe6;
+  color: #22181c;
   margin-left: 25px;
   font-family: "Bungee Shade", cursive;
   font-size: 50px;
@@ -80,11 +90,32 @@ body {
   animation-delay: 2s;
 }
 
+@keyframes animation6 {
+  0% {
+    color: #22181c;
+  }
+  25% {
+    color: #ee2e31;
+  }
+  50% {
+    color: #ff6978;
+  }
+  75% {
+    color: #f7f052;
+  }
+  100% {
+    color: #22181c;
+  }
+}
+
 #listenUp {
   font-size: 45px;
+  color: #22181c;
   border-top-style: groove;
   border-bottom-style: groove;
   font-family: "Mansalva", cursive;
+  animation-name: animation6;
+  animation-duration: 40s;
 }
 
 img {
@@ -160,27 +191,31 @@ img:hover {
 
 .songList {
   margin-top: 45px;
-  color: #fff8f0;
+  color: #b8336a;
   font-size: 25px;
   font-family: "Mansalva", cursive;
 }
 
 @keyframes animation3 {
   0% {
-    color: #b8336a;
+    color: #22181c;
   }
   25% {
-    color: #c490d1;
+    color: #ee2e31;
   }
   50% {
-    color: #abdafc;
+    color: #ff6978;
+  }
+  75% {
+    color: #f7f052;
   }
   100% {
-    color: #fff8f0;
+    color: #22181c;
   }
 }
 
 #mySongs {
+  color: #22181c;
   font-size: 40px;
   font-family: "Mansalva", cursive;
   animation-name: animation3;
@@ -195,13 +230,13 @@ img:hover {
     color: #b8336a;
   }
   25% {
-    color: #c490d1;
+    color: #3c4f76;
   }
   50% {
-    color: #abdafc;
+    color: #d4e4bc;
   }
   100% {
-    color: #fff8f0;
+    color: #383f51;
   }
 }
 
@@ -210,6 +245,7 @@ img:hover {
   animation-name: animation4;
   animation-duration: 30s;
   font-size: 50px;
+  color: #383f51;
   border-top-style: groove;
   border-bottom-style: groove;
 }
@@ -229,7 +265,7 @@ img:hover {
   }
 }
 .artistInfo {
-  color: #e1efe6;
+  color: #b8336a;
   font-size: 30px;
   font-family: "Mansalva", cursive;
   animation-name: animation5;
@@ -237,7 +273,7 @@ img:hover {
 }
 
 .bio {
-  color: #e1efe6;
+  color: #b8336a;
   font-size: 40px;
   font-family: "Mansalva", cursive;
 }
