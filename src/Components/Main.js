@@ -11,9 +11,10 @@ const Main = ({ mainPage }) => {
     <div>
       <Route path="/Home">
         {/* {mainPage.map((musicInfo, index) => ( */}
-        <Library />
-        {/* // musicInfo={musicInfo} key={index} /> */}
+        {/* <Library musicInfo={musicInfo.fields} key={index} /> */}
         {/* ))} */}
+        <Library />
+
         <h2 className="analogHeader">
           Analog <span id="jukebox">Jukebox</span>
         </h2>

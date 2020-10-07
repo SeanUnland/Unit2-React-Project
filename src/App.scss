@@ -8,27 +8,38 @@
 }
 
 body {
-  background-image: url("https://i.imgur.com/QdkR1EG.jpg");
+  // background-image: url("https://i.imgur.com/QdkR1EG.jpg");
+  background-image: url("https://i.imgur.com/w7lWJQO.jpg");
   background-size: cover;
 }
 
 .analogHeader {
   font-family: "Bungee Shade", cursive;
+  font-size: 50px;
+  color: #e1efe6;
+  border-bottom-style: groove;
+  border-top-style: groove;
 }
 #jukebox {
-  color: #2595c5;
+  color: #e1efe6;
   margin-left: 25px;
   font-family: "Bungee Shade", cursive;
   font-size: 30px;
 }
 
 #AndListen {
-  color: #2595c5;
+  color: #e1efe6;
+
   margin-left: 25px;
 }
+
 img {
+  display: flex;
+  display: inline;
   height: 80px;
   width: 80px;
+  margin: 3px;
+  opacity: 50%;
 }
 
 .Home {
@@ -43,31 +54,37 @@ img {
   color: white;
   font-size: 20px;
 }
-#HomeButton {
-  color: #170312;
-  font-family: "Bungee Shade", cursive;
 
-  font-size: 22px;
+#HomeButton {
+  color: #e1efe6;
+  font-family: "Bungee Shade", cursive;
+  font-size: 25px;
+  margin-right: 10px;
 }
 
 #SongsButton {
   color: #fff8f0;
   font-family: "Bungee Shade", cursive;
+  margin-left: 10px;
+  margin-right: 10px;
 
-  font-size: 18px;
+  font-size: 25px;
 }
 
 #PlayButton {
-  color: #ae8799;
-  font-size: 25px;
+  color: #fff8f0;
+  height: 25px;
+  width: 25px;
+  font-size: 10px;
   font-family: "Bungee Shade", cursive;
+  margin-left: 10px;
 }
 
 #ArtistButton {
-  color: #c95d63;
+  color: #fff8f0;
   font-family: "Bungee Shade", cursive;
-
-  font-size: 10px;
+  font-size: 25px;
+  margin-left: 10px;
 }
 
 .mainPage {
@@ -76,23 +93,24 @@ img {
 
 .songList {
   margin-top: 45px;
-  color: #f46036;
+  color: #fff8f0;
   font-size: 20px;
 }
 .artistInfo {
-  color: #ee8434;
+  color: #e1efe6;
   font-size: 30px;
   font-family: "Bungee Shade", cursive;
 }
 
 .bio {
-  color: #ee8434;
+  color: #e1efe6;
   font-size: 40px;
   font-family: "Bungee Shade", cursive;
 }
 
 .AudioPlayer {
   font-family: "Finger Paint", cursive;
+  padding: 10px;
 }
 
 //

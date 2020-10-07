@@ -6,17 +6,18 @@ const Header = (props) => {
     <div className="Header">
       <nav className="navBar">
         <Link to="/Home">
-          <span id="HomeButton">Home</span>
+          <a id="HomeButton">Home</a>
         </Link>
 
         <Link to="/Songs">
-          <span id="SongsButton">Songs</span>
+          <a id="SongsButton">Songs</a>
         </Link>
         <Link to="/Play">
-          <span id="PlayButton">Play</span>
+          {/* <a id="PlayButton">Play</a> */}
+          <img id="PlayButton" src="https://i.imgur.com/lAUbiUYt.jpg" alt="" />
         </Link>
         <Link to="/ArtistInformation">
-          <span id="ArtistButton">Artist Information</span>
+          <a id="ArtistButton">Artist</a>
         </Link>
       </nav>
     </div>
