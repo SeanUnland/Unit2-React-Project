@@ -4,12 +4,10 @@ const AudioPlayer = (props) => {
   console.log("New Song - ", props);
   return (
     <div>
-      <h1>
-        Press Play <span id="AndListen">And Listen!</span>
-      </h1>
+      <h1 id="listenUp">Listen Up!</h1>
       <div className="AudioPlayer">
         <iframe
-          width="75%"
+          width="100%"
           height="100"
           scrolling="no"
           frameborder="no"
@@ -19,7 +17,7 @@ const AudioPlayer = (props) => {
         <div
           style={{
             fontSize: "10px",
-            color: "#cccccc",
+            color: "#e1efe6",
             lineBreak: "anywhere",
             wordBreak: "normal",
             overflow: "hidden",
@@ -49,7 +47,7 @@ const AudioPlayer = (props) => {
           </a>
         </div>
         <iframe
-          width="75%"
+          width="100%"
           height="100"
           scrolling="no"
           frameborder="no"
@@ -59,7 +57,7 @@ const AudioPlayer = (props) => {
         <div
           style={{
             fontSize: "10px",
-            color: "#cccccc",
+            color: "#e1efe6",
             lineBreak: "anywhere",
             wordBreak: "normal",
             overflow: "hidden",
@@ -89,7 +87,7 @@ const AudioPlayer = (props) => {
           </a>
         </div>
         <iframe
-          width="75%"
+          width="100%"
           height="100"
           scrolling="no"
           frameborder="no"
@@ -99,7 +97,7 @@ const AudioPlayer = (props) => {
         <div
           style={{
             fontSize: "10px",
-            color: "#cccccc",
+            color: "#e1efe6",
             lineBreak: "anywhere",
             wordBreak: "normal",
             overflow: "hidden",
@@ -129,7 +127,7 @@ const AudioPlayer = (props) => {
           </a>
         </div>
         <iframe
-          width="75%"
+          width="100%"
           height="100"
           scrolling="no"
           frameborder="no"
@@ -139,7 +137,7 @@ const AudioPlayer = (props) => {
         <div
           style={{
             fontSize: "10px",
-            color: "#cccccc",
+            color: "#e1efe6",
             lineBreak: "anywhere",
             wordBreak: "normal",
             overflow: "hidden",
@@ -169,7 +167,7 @@ const AudioPlayer = (props) => {
           </a>
         </div>
         <iframe
-          width="75%"
+          width="100%"
           height="100"
           scrolling="no"
           frameborder="no"
@@ -179,7 +177,7 @@ const AudioPlayer = (props) => {
         <div
           style={{
             fontSize: "10px",
-            color: "#cccccc",
+            color: "#e1efe6",
             lineBreak: "anywhere",
             wordBreak: "normal",
             overflow: "hidden",

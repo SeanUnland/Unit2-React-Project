@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Link, Switch } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Library from "./Components/Library";
 import Main from "./Components/Main";
 import Songs from "./Components/Songs";

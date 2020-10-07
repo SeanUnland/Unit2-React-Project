@@ -1,5 +1,6 @@
 // Imported font from Google Fonts
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Finger+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&family=Vibes&display=swap");
 
 .App {
   text-align: center;
@@ -10,7 +11,8 @@
 body {
   // background-image: url("https://i.imgur.com/QdkR1EG.jpg");
   background-image: url("https://i.imgur.com/w7lWJQO.jpg");
-  background-size: cover;
+  // background-image: url("https://i.imgur.com/pCaHUd2.jpg");
+  background-size: auto;
 }
 
 @keyframes animation1 {
@@ -78,10 +80,11 @@ body {
   animation-delay: 2s;
 }
 
-#AndListen {
-  color: #e1efe6;
-
-  margin-left: 25px;
+#listenUp {
+  font-size: 45px;
+  border-top-style: groove;
+  border-bottom-style: groove;
+  font-family: "Mansalva", cursive;
 }
 
 img {
@@ -91,6 +94,10 @@ img {
   width: 80px;
 
   opacity: 50%;
+}
+
+img:hover {
+  opacity: 100%;
 }
 
 .Home {
@@ -154,22 +161,85 @@ img {
 .songList {
   margin-top: 45px;
   color: #fff8f0;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Mansalva", cursive;
+}
+
+@keyframes animation3 {
+  0% {
+    color: #b8336a;
+  }
+  25% {
+    color: #c490d1;
+  }
+  50% {
+    color: #abdafc;
+  }
+  100% {
+    color: #fff8f0;
+  }
 }
 
 #mySongs {
   font-size: 40px;
+  font-family: "Mansalva", cursive;
+  animation-name: animation3;
+  animation-duration: 60s;
+  animation-delay: 2s;
+  border-top-style: groove;
+  border-bottom-style: groove;
+}
+
+@keyframes animation4 {
+  0% {
+    color: #b8336a;
+  }
+  25% {
+    color: #c490d1;
+  }
+  50% {
+    color: #abdafc;
+  }
+  100% {
+    color: #fff8f0;
+  }
+}
+
+#whoAmI {
+  font-family: "Mansalva", cursive;
+  animation-name: animation4;
+  animation-duration: 30s;
+  font-size: 50px;
+  border-top-style: groove;
+  border-bottom-style: groove;
+}
+
+@keyframes animation5 {
+  0% {
+    font-size: 1.5px;
+  }
+  25% {
+    font-size: 5px;
+  }
+  50% {
+    font-size: 10px;
+  }
+  100% {
+    font-size: 30px;
+  }
 }
 .artistInfo {
   color: #e1efe6;
   font-size: 30px;
-  font-family: "Bungee Shade", cursive;
+  font-family: "Mansalva", cursive;
+  animation-name: animation5;
+  animation-duration: 40s;
 }
 
 .bio {
   color: #e1efe6;
   font-size: 40px;
-  font-family: "Bungee Shade", cursive;
+  font-family: "Mansalva", cursive;
 }
 
 .AudioPlayer {

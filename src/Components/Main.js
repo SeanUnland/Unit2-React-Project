@@ -3,7 +3,7 @@ import Library from "./Library";
 import Songs from "./Songs";
 import AudioPlayer from "./AudioPlayer";
 import Artist from "./Artist";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route } from "react-router-dom";
 
 const Main = ({ mainPage }) => {
   console.log("Main Page - ", mainPage);
@@ -28,6 +28,7 @@ const Main = ({ mainPage }) => {
       </Route>
 
       <Route path="/ArtistInformation">
+        <h2 id="whoAmI">Who Am I?</h2>
         {mainPage.map((name, index) => (
           <Artist
             key={index}
