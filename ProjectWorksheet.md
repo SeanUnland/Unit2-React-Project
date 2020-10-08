@@ -4,6 +4,8 @@
 
 [Git Hub Repo Link](https://github.com/SeanUnland/Unit2-React-Project)
 
+[Netlify](https://unit-2-project.netlify.app)
+
 ## Project Description
 
 I will be building a music and audio App that will play my music, using React and import data through a Contenful API that will be implemented in my app. I would like it to display a main page with album artwork and then give you the ability to list albums, songs, and artist information. I would also like to include an audio player that would play music of the artist you clicked on.
