@@ -18,7 +18,7 @@ class App extends React.Component {
     client
       .getEntries()
       .then((response) => {
-        console.log("Response -", response);
+        // console.log("Response -", response);
         this.setState({
           music: response.items,
         });
