@@ -6,7 +6,7 @@ import Artist from "./Artist";
 import { Route } from "react-router-dom";
 
 const Main = ({ mainPage }) => {
-  console.log("Main Page - ", mainPage);
+  //   console.log("Main Page - ", mainPage);
   return (
     <div>
       <Route path="/Home">
