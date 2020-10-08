@@ -125,7 +125,7 @@ SCSS
 
 ## Code Snippet
 
-This is the code I used to bring in my API through Contenful. I used a class component which fetched my API through my client.js component which stored my data for the Contenful API.
+This is the code I used to bring in my API data through Contenful. I used a class component which fetched my API through my client.js component which stored my data for the Contenful API.
 
 ```
 class App extends React.Component {

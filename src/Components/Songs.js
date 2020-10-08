@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const Songs = ({ songs }) => {
   console.log("Song List", songs);
-  //   const songNames = { songs };
 
   return (
     <div className="songs">
