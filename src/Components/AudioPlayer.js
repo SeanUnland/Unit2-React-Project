@@ -1,7 +1,6 @@
 import React from "react";
 
 const AudioPlayer = ({ songs }) => {
-  //   console.log("New Song - ", songs);
   return (
     <div>
       <h1 id="listenUp">Listen Up!</h1>

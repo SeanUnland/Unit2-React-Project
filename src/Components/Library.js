@@ -2,8 +2,6 @@ import React from "react";
 import { Route, Link } from "react-router-dom";
 
 const Library = ({ musicInfo }) => {
-  //   console.log("Music List - ", musicInfo);
-
   return (
     <Route path="/Home">
       <div className="Home">

@@ -6,13 +6,9 @@ import Artist from "./Artist";
 import { Route } from "react-router-dom";
 
 const Main = ({ mainPage }) => {
-  console.log("Main Page - ", mainPage);
   return (
     <div>
       <Route path="/Home">
-        {/* {mainPage.map((musicInfo, index) => ( */}
-        {/* <Library musicInfo={musicInfo.fields} key={index} /> */}
-        {/* ))} */}
         <Library />
 
         <h2 className="analogHeader">
@@ -40,13 +36,7 @@ const Main = ({ mainPage }) => {
       </Route>
 
       <Route path="/Play">
-        {/* {mainPage.map((songs, index) => ( */}
-        <AudioPlayer
-
-        // songs={songs.fields.song}
-        // newSong={songs.fields.trackName}
-        />
-        {/* ))} */}
+        <AudioPlayer />
       </Route>
     </div>
   );
