@@ -79,16 +79,16 @@ __proto__: Object
 
 A functional and interactive music and audio app.
 
-- Can search for vinyl records usnig the API call.
-- Can display artist, album, and information from the API call.
-- Can add the record to your own library.
-  A navbar to navigate to the different pages.
-  A header
-  A main page.
-  A footer
-  Library page.
-  Artist information page.
-  Styling
+- Can display my music using the API call.
+- Can display my name, album artwork, and information from the API call.
+- Can play the song you selected.
+  -A navbar to navigate to the different pages.
+  -A header
+  -A main page.
+  -A footer
+  -Library page.
+- Artist information page.
+- Styling
 
 #### PostMVP
 
