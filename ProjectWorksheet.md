@@ -79,28 +79,12 @@ __proto__: Object
 
 A functional and interactive music and audio app.
 
-<<<<<<< HEAD
 - Can display my music using the API call.
 - Can display my name, album artwork, and information from the API call.
 - Can play the song you selected.
-  -A navbar to navigate to the different pages.
-  -A header
-  -A main page.
-  -A footer
-  -Library page.
-- Artist information page.
-- Styling
-=======
 - Can display my own music usnig the API call.
 - Can display artist, album, and information from the API call.
 - Can play my music.
-  A navbar to navigate to the different pages.
-  A header
-  A main page.
-  Library page.
-  Artist information page.
-  Styling
->>>>>>> 3f2025f1c13234171b3e94e1438bcc7cfd7fee2e
 
 #### PostMVP
 
